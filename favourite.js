@@ -1,3 +1,6 @@
+const src_heart = `img/favorite_fill.svg`;
+let LikedImgSrc;
+
 let FavouritesAdding = async () => {
   LikedImgSrc = await JSON.parse(sessionStorage.getItem("test"));
   LikedImgSrc.forEach((el) => {
